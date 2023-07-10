@@ -1,0 +1,5 @@
+Run the following command in the terminal (Folder of project) when main.cpp the is the cpp file
+
+gcc $(python3-config --cflags) -fPIE -c main.cpp -o main.o
+g++ main.cpp -o main -I/usr/include/python3.8 -lpython3.8 -lstdc++
+./main  // comment : this is for running and not compilation
